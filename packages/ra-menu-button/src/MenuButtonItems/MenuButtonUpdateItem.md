@@ -114,8 +114,6 @@ By default, `<MenuButton.UpdateItem>` reads the current resource from the `Resou
 
 ### `successMessage`
 
-![Delete button success message](./img/MenuButton.UpdateItem_success.png)
-
 On success, `<MenuButton.UpdateItem>` displays a "Element updated" notification in English. `<MenuButton.UpdateItem>` uses two successive translation keys to build the success message:
 
 - `resources.{resource}.notifications.updated` as a first choice

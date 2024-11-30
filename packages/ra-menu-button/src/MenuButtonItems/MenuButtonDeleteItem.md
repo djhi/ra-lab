@@ -116,8 +116,6 @@ By default, `<MenuButton.DeleteItem>` reads the current resource from the `Resou
 
 ### `successMessage`
 
-![Delete button success message](./img/DeleteButton_success.png)
-
 On success, `<MenuButton.DeleteItem>` displays a "Element deleted" notification in English. `<MenuButton.DeleteItem>` uses two successive translation keys to build the success message:
 
 - `resources.{resource}.notifications.deleted` as a first choice
