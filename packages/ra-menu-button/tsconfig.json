@@ -1,0 +1,21 @@
+{
+    "extends": "../../tsconfig.json",
+    "compilerOptions": {
+      "module": "NodeNext",
+      "moduleResolution": "NodeNext",
+      "esModuleInterop": true,
+      "outDir": "dist/esm",
+      "rootDir": "src",
+      "allowJs": false,
+      "strictNullChecks": true
+    },
+    "exclude": [
+        "**/*.spec.ts",
+        "**/*.spec.tsx",
+        "**/*.spec.js",
+        "**/*.stories.ts",
+        "**/*.stories.tsx",
+        "**/*.stories.js"
+    ],
+    "include": ["src"]
+}
